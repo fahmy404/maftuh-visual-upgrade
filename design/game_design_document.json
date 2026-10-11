@@ -1,0 +1,122 @@
+{
+  "title": "Maftuh Cairo Detective",
+  "hook": "Solve gritty Cairo murder mysteries",
+  "game_overview": "Step into the shoes of an Egyptian detective in Cairo to investigate crime scenes in 3D, interrogate suspects, and solve intricate murder cases.",
+  "artstyle": "cinematic",
+  "genre": "action_adventure",
+  "winning_condition": "Collect key forensic evidence, identify contradictions during interrogations, and accurately convict the true culprit with solid proof.",
+  "losing_condition": "Accusing the wrong suspect or failing to establish sufficient conclusive evidence before submitting the final case accusation.",
+  "player_mode": "single_player",
+  "supported_orientations": [
+    "landscape"
+  ],
+  "input_methods": [
+    "touch",
+    "mouse",
+    "keyboard"
+  ],
+  "score_options": {
+    "score_type": "points",
+    "score_order": "higher_is_better"
+  },
+  "low_end_device_support": false,
+  "mobile_playable": true,
+  "language": [
+    "ar",
+    "en"
+  ],
+  "content_descriptors": [],
+  "controls": [
+    {
+      "input": "W/A/S/D or Virtual Joystick",
+      "action": "Walk and navigate Captain Youssef across 3D Cairo locations."
+    },
+    {
+      "input": "Right Touch Drag or Mouse Look",
+      "action": "Rotate the third-person investigation camera to inspect surroundings."
+    },
+    {
+      "input": "E Key / Action Button / Screen Tap",
+      "action": "Interact with crime scene clues, doors, and initiate suspect interviews."
+    },
+    {
+      "input": "Shift / Run Button",
+      "action": "Sprint to traverse larger outdoor and station environments quickly."
+    },
+    {
+      "input": "F Key / Flashlight Button",
+      "action": "Toggle detective flashlight in dim crime scene corners."
+    },
+    {
+      "input": "Tab / Notebook Button",
+      "action": "Open detective case notebook, evidence board, and suspect profiles."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Design Pillars",
+      "content": "1. Authentic Egyptian Atmosphere: Believable colloquial Egyptian dialogue, genuine Cairo architectural details, and grounded social dynamics. 2. Meaningful Deductive Agency: No hand-holding; players gather forensic clues, cross-examine timelines, and connect contradictions manually on an interactive board. 3. Tangible 3D Investigation: Seamless transition between free-roaming third-person scene exploration and tactile 3D clue inspection. 4. High-Stakes Interrogations: Dynamic branching interviews where suspects react to evidence, evasion, and pressure.",
+      "summary": "Core pillars guiding the Cairo detective experience."
+    },
+    {
+      "title": "Core Loop",
+      "content": "Receive case briefing at the police station -> Travel to the 3D crime scene -> Explore the environment and collect forensic physical clues -> Interview witnesses and suspects in authentic Egyptian Arabic -> Cross-reference statements on the interactive evidence board to expose contradictions -> Confront suspects with proof -> Submit final indictment and unlock multiple narrative endings.",
+      "summary": "The standard investigative cycle from briefing to conviction."
+    },
+    {
+      "title": "Core Mechanics",
+      "content": "1. 3D Clue Inspection & Forensic Collection: Approaching hotspots reveals contextual prompts to inspect items in close-up, unlocking forensic details into the case file. 2. Interactive Evidence Board: Visual pinboard connecting suspects, alibis, timestamps, and contradictory statements. 3. Branching Arabic Interrogation Engine: Deep dialogue trees supporting friendly inquiry, direct pressure, and presenting specific physical evidence to break false alibis. 4. Flashlight & Observation Mode: Illuminates hidden fingerprints, blood splatters, and discarded documents in dark apartments.",
+      "summary": "Key interactive systems for clue finding, deduction, and dialogue."
+    },
+    {
+      "title": "3D Camera & Movement Alignment",
+      "content": "Coordinate system strictly adheres to Three.js standard (+Y Up, +X Right, -Z Forward). The camera utilizes a responsive third-person orbit/chase rig with smooth collision avoidance against interior walls. Player locomotion uses smooth kinematic translation and character yaw rotation with authentic walk and sprint animations.",
+      "summary": "Third-person follow camera with smooth touch & keyboard controls."
+    },
+    {
+      "title": "3D Scene Hierarchy & Lighting",
+      "content": "Features detailed procedural 3D environments: Nasr City crime scene apartment (living room, bedroom, balcony, stopped wall clock, tea table), warm Cairo street with dust haze and parked cars, and an authentic police precinct office. Physically correct lighting with warm incandescent lamps, ambient moonlight, and a dynamic spot flashlight. High contrast visual cues highlight interactive objects subtly.",
+      "summary": "Cinematic Cairo apartment, street, and police station environments."
+    },
+    {
+      "title": "Characters & Suspects",
+      "content": "Investigators: Captain Youssef El-Masry (player), Officer Karim Hassan, Major Hany Abdelrahman, Dr. Salma Nabil. Suspects for Case 1 ('\u0627\u0644\u0633\u0627\u0639\u0629 \u0627\u0644\u0644\u064a \u0648\u0642\u0641\u062a'): Dina Adel (victim's wife claiming sister visit alibi), Sherif Mahmoud (business partner with disputed check), Amr Saeed (neighbor claiming he heard nothing), Hossam Fathy (victim's estranged younger brother).",
+      "summary": "Original cast of investigators and unique suspects."
+    },
+    {
+      "title": "Evidence & Interrogation System",
+      "content": "Fixed canonical solution: Sherif Mahmoud is the true culprit who arrived at 10:15 PM regarding the forged financial ledger, panicked during an argument, and staged the broken clock to match Dina's departure. Discoverable physical clues include the shattered clock gears, victim's missing phone hidden in hallway planter, disputed receipt in the desk drawer, tea cup with double fingerprints, and CCTV footage from the downstairs street kiosk.",
+      "summary": "Comprehensive evidentiary logic and predetermined canonical solution."
+    },
+    {
+      "title": "Fairness Tools",
+      "content": "Interactive timeline organizer, contradiction highlights when two statements clash with physical timestamps, case summary checklist showing collected vs remaining scene clues, and partner advice hints from Karim upon request.",
+      "summary": "Investigative tools aiding player deduction without spoilers."
+    },
+    {
+      "title": "Juice & Game Feel",
+      "content": "Anticipation Juice: Focused depth-of-field blur and subtle sound dampening when inspecting crucial evidence. State Change Juice: Dramatic musical sting and heartbeat pulse when a suspect is caught in a direct lie. Impact Juice: Tension-building interrogation camera zooms, realistic Arabic paper rustling, and triumphant judicial resolution fanfare on correct conviction.",
+      "summary": "Sensory feedback enhancing suspense and discovery."
+    },
+    {
+      "title": "Social Mechanics & Audience",
+      "content": "Single-player mystery experience tailored for fans of detective adventures. Features detective ranking (\u0627\u0645\u062a\u064a\u0627\u0632, \u062c\u064a\u062f \u062c\u062f\u0627\u064b, \u0645\u0642\u0628\u0648\u0644), case archive review, and alternate ending exploration.",
+      "summary": "Target audience and replayable case rating metrics."
+    },
+    {
+      "title": "Accessibility",
+      "content": "Native right-to-left (RTL) Arabic typography with Cairo/Tajawal font styling, high-contrast text backgrounds, adjustable joystick sensitivity, and full dual support for touch gestures and keyboard/mouse.",
+      "summary": "Inclusive RTL typography and adjustable controls."
+    },
+    {
+      "title": "Structural Integrity",
+      "content": "Main Menu -> Police Station Briefing -> 3D Crime Scene Exploration -> Interrogation & Evidence Pinboard -> Final Accusation -> Case Verdict & Rating -> Case Archive. Full state persistence in LocalStorage.",
+      "summary": "Complete narrative flow, auto-saving, and local persistence."
+    },
+    {
+      "title": "Virtual Touch Controls Implementation",
+      "content": "Renders floating virtual joystick on bottom-left and contextual action/flashlight/notebook buttons on bottom-right when mobile is detected via useIsMobile(). Handlers bind onPointerDown, onPointerMove, onPointerUp, onPointerLeave, and onPointerCancel with touch-none and pointer-events-auto to eliminate input lockups.",
+      "summary": "Responsive on-screen virtual joystick and action buttons for mobile."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800">
+<defs>
+<pattern id="tile" width="40" height="40" patternUnits="userSpaceOnUse"><rect width="40" height="40" fill="#273342"/><path d="M40 0H0V40" stroke="#485568" stroke-width="2"/><path d="M5 5h30v30H5z" fill="none" stroke="#1b2634"/></pattern>
+<linearGradient id="wood" x2="0" y2="1"><stop stop-color="#81542f"/><stop offset="1" stop-color="#342116"/></linearGradient>
+<radialGradient id="glow"><stop stop-color="#ffcf6b" stop-opacity=".5"/><stop offset="1" stop-color="#f5a623" stop-opacity="0"/></radialGradient>
+<filter id="shadow"><feGaussianBlur stdDeviation="8"/></filter>
+<g id="plant"><ellipse cy="12" rx="24" ry="8" fill="#080d13" opacity=".7"/><path d="M0 12L-12-16 -4-7 0-31 5-8 19-20 11 3 22 9 7 14z" fill="#236247" stroke="#153c2c" stroke-width="2"/><path d="M0 10L0-23M0 10L15-13M0 10L-10-9" stroke="#58a66c" stroke-width="2"/><path d="M-15 13h30l-4 18h-22z" fill="#854728" stroke="#c17c44" stroke-width="2"/></g>
+<g id="lamp"><ellipse rx="56" ry="56" fill="url(#glow)"/><path d="M-3 0L-2-17H2L3 0" fill="#a77843"/><path d="M-15-17L-10-32H10L15-17Z" fill="#f5c66d" stroke="#a87437" stroke-width="2"/><path d="M-8-28H8" stroke="#fff0af" stroke-width="2"/></g>
+<g id="desk"><rect x="4" y="7" width="160" height="95" rx="4" fill="#090d12" opacity=".55"/><rect width="160" height="92" rx="3" fill="url(#wood)" stroke="#1a100a" stroke-width="6"/><rect x="7" y="7" width="146" height="78" fill="#79502e" stroke="#b17a44" stroke-width="2"/><path d="M10 28H150M10 64H150" stroke="#4b2d1a" stroke-width="2"/><rect x="22" y="16" width="52" height="35" fill="#101a26" stroke="#c29b5e" stroke-width="3"/><rect x="27" y="21" width="42" height="25" fill="#1b6880"/><path d="M30 40l10-10 8 5 9-8 8 10" fill="none" stroke="#7ee3e7" stroke-width="2"/><rect x="90" y="18" width="44" height="27" fill="#e7ddc8" transform="rotate(7 112 31)"/><path d="M96 24h30m-30 5h22m-22 5h26" stroke="#a99879" stroke-width="1.5"/></g>
+</defs>
+<rect width="1280" height="800" fill="#0a1019"/>
+<!-- tiled station floor -->
+<rect x="30" y="28" width="1220" height="744" fill="url(#tile)"/>
+<!-- office floor panels -->
+<rect x="45" y="45" width="500" height="310" fill="#2c3745" stroke="#111923" stroke-width="12"/>
+<rect x="570" y="45" width="650" height="310" fill="#242d39" stroke="#111923" stroke-width="12"/>
+<rect x="45" y="390" width="525" height="350" fill="#202c3b" stroke="#111923" stroke-width="12"/>
+<rect x="590" y="390" width="630" height="350" fill="#2a3038" stroke="#111923" stroke-width="12"/>
+<!-- walls -->
+<path d="M30 28H1250V772H30Z M555 28V360M30 375H575M580 375V772M850 375V772M555 200H850" fill="none" stroke="#111721" stroke-width="20"/>
+<path d="M30 28H1250V772H30Z M555 28V360M30 375H575M580 375V772M850 375V772M555 200H850" fill="none" stroke="#566273" stroke-width="12"/>
+<!-- commander office rug and desk -->
+<rect x="100" y="95" width="355" height="220" fill="#48252b" stroke="#d4a04c" stroke-width="5"/><rect x="112" y="107" width="331" height="196" fill="none" stroke="#b9754c" stroke-width="3"/><path d="M275 125l45 45-45 45-45-45z M275 205l28 28-28 28-28-28z" fill="#8d5039" stroke="#e3b66f" stroke-width="3"/><use href="#desk" x="195" y="170"/><use href="#lamp" x="190" y="165"/><use href="#lamp" x="430" y="170"/>
+<!-- flag and emblem -->
+<rect x="75" y="55" width="10" height="115" fill="#c3a36c"/><path d="M85 58h85v24H85z" fill="#d53a3a"/><path d="M85 82h85v24H85z" fill="#f1e7cf"/><path d="M85 106h85v24H85z" fill="#1c704d"/><rect x="735" y="65" width="270" height="80" rx="4" fill="#101925" stroke="#b78542" stroke-width="4"/><path d="M850 82l20 15 20-15 0 28-20 20-20-20z" fill="#b98a40"/><path d="M870 89v27M857 102h26" stroke="#f5d28b" stroke-width="3"/>
+<!-- case board -->
+<rect x="650" y="170" width="510" height="160" fill="#633d25" stroke="#24170f" stroke-width="9"/><rect x="662" y="182" width="486" height="136" fill="#875b3c" stroke="#c28b4b" stroke-width="3"/>
+<g stroke="#dec9a4" stroke-width="2"><path d="M685 205l80 0M685 240h120M685 275h95M840 205h90M840 240h100M840 275h70M985 205h125M985 240h115M985 275h105"/></g>
+<g fill="#e9dfc7" stroke="#a58a62" stroke-width="2"><rect x="690" y="194" width="48" height="44" transform="rotate(-3 714 216)"/><rect x="765" y="200" width="53" height="48" transform="rotate(2 790 224)"/><rect x="850" y="192" width="54" height="47"/><rect x="940" y="197" width="48" height="45"/><rect x="1030" y="194" width="58" height="46"/></g>
+<g fill="#9e2828"><circle cx="740" cy="222" r="4"/><circle cx="825" cy="222" r="4"/><circle cx="915" cy="222" r="4"/><circle cx="1000" cy="222" r="4"/></g><path d="M740 222L825 222L915 222L1000 222" stroke="#ad2727" stroke-width="2" fill="none"/>
+<!-- interrogation table -->
+<rect x="655" y="465" width="170" height="190" fill="#4c292b" stroke="#c38c42" stroke-width="4"/><rect x="670" y="480" width="140" height="160" fill="none" stroke="#a95f42" stroke-width="3"/><use href="#desk" x="660" y="510" transform="scale(.85 1)"/>
+<!-- file cabinets -->
+<g><rect x="70" y="220" width="90" height="125" fill="#17212e" stroke="#526173" stroke-width="4"/><path d="M76 252H154M76 282H154M76 312H154" stroke="#66778a" stroke-width="4"/><circle cx="145" cy="238" r="3" fill="#d6b775"/><circle cx="145" cy="268" r="3" fill="#d6b775"/><circle cx="145" cy="298" r="3" fill="#d6b775"/><rect x="430" y="225" width="90" height="120" fill="#17212e" stroke="#526173" stroke-width="4"/><path d="M436 255H514M436 285H514M436 315H514" stroke="#66778a" stroke-width="4"/></g>
+<!-- waiting area sofa -->
+<g transform="translate(100 465)"><rect x="0" y="0" width="300" height="82" rx="12" fill="#263e55" stroke="#0d1722" stroke-width="7"/><rect x="8" y="8" width="284" height="66" rx="9" fill="#5a7185" stroke="#9aa9b6" stroke-width="2"/><path d="M100 10V72M200 10V72" stroke="#334b62" stroke-width="3"/><rect x="-8" y="8" width="24" height="66" rx="6" fill="#3b5268"/><rect x="284" y="8" width="24" height="66" rx="6" fill="#3b5268"/></g>
+<!-- potted plants and warm lamps -->
+<use href="#lamp" x="505" y="100"/><use href="#lamp" x="1100" y="100"/><use href="#lamp" x="100" y="410"/><use href="#lamp" x="1160" y="430"/><use href="#plant" x="520" y="335"/><use href="#plant" x="1200" y="330"/><use href="#plant" x="625" y="700"/><use href="#plant" x="1185" y="700"/>
+<!-- evidence table -->
+<g transform="translate(925 510)"><rect x="5" y="7" width="220" height="130" fill="#090d12" opacity=".6"/><rect width="220" height="125" fill="url(#wood)" stroke="#1b110b" stroke-width="7"/><rect x="8" y="8" width="204" height="108" fill="#76502e" stroke="#bd8a4f" stroke-width="2"/><rect x="25" y="20" width="55" height="38" fill="#d7cbb2" transform="rotate(-8 52 39)"/><path d="M31 30h42m-42 6h32m-32 6h37" stroke="#9c8b6d" stroke-width="2"/><rect x="95" y="22" width="48" height="36" fill="#e9e1d1" transform="rotate(7 119 40)"/><circle cx="175" cy="42" r="13" fill="#c2b08b" stroke="#60452c" stroke-width="3"/><circle cx="175" cy="42" r="6" fill="#5a3a24"/></g>
+<!-- doorways -->
+<path d="M555 235v80M580 520v80M850 460v90" stroke="#c08b4b" stroke-width="8"/><path d="M555 235v80M580 520v80M850 460v90" stroke="#4b2c19" stroke-width="3"/>
+<rect width="1280" height="800" fill="none" stroke="#060a10" stroke-width="25" opacity=".6"/>
+</svg>
